@@ -1,0 +1,76 @@
+/* MENU TITULO */
+
+header{
+    margin-bottom: 40px;
+}
+
+.linkTitulo{
+    text-decoration: none;
+    color: black;
+}
+
+.linkTitulo:hover{
+    color: black;
+}
+
+.contenedorLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+
+/* MENU NAVEGACION */
+.listaUl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.lista{
+    display: block;
+    margin-bottom: 0.5%;
+}
+
+.link{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    width: auto;
+}
+
+.link:hover{
+    transition-duration: 0.1s;
+    font-weight: 700;
+    color: #2C3F50;
+}
+
+.carrito{
+    position: absolute;
+    right: 3.2%;
+    top: 3.2%;
+    width: 1.7em;
+    height: 1.7em;
+}
+
+.cantidadCarrito{
+    position: absolute;
+    right: 2.7%;
+    top: 3.2%;
+    text-decoration: none;
+    color: black;
+}
+
+.cantidadCarrito:hover{
+    color: black;
+}
+
+.linkCarrito{
+    color: black;
+}
+
+.linkCarrito:hover{
+    color: black;
+}

@@ -1,0 +1,35 @@
+/* CONTADOR */
+
+.componenteMayorStock{
+    display: flex;
+    justify-content: center;
+    margin: 15px 100px 15px 100px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.containerContador{
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    padding: 5px 10px 5px 10px;
+}
+
+.aumentarContador{
+    height: 40px;
+    width: 30px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.disminuirContador{
+    height: 40px;
+    width: 30px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.numeroContador{
+    padding-top: 9px;
+    margin: 0;
+}

@@ -1,0 +1,74 @@
+.containerDetailsAll{
+    display: flex;
+}
+
+.mainDetails {
+    display: flex; 
+}
+
+.imgDetails{
+    height: 320px;
+    width: 320px;
+    margin-bottom: 10px;
+}
+
+.tittleDetails{
+    text-align: start;
+}
+
+.priceDetails{
+    font-size: larger;
+}
+
+.descDetails{
+    text-align: start;
+    margin: 0;
+}
+
+.backContainer{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.backLink{
+    color: black;
+    padding: 7px;
+    border: black solid 2px;
+    border-radius: 30px;
+}
+
+.backLink:hover{
+    color: black;
+}
+
+.backDetails{
+    align-self: end;
+}
+
+.botonDetails{
+    background-color: black;
+    margin-bottom: 15px;
+}
+
+.containerContador{
+    width: 100%;
+}
+
+.linkFinallyAdded{
+    color: #2C3F50;
+    text-decoration: underline;
+}
+
+.linkFinallyAdded:hover{
+    color: #2C3F50;
+}
+
+.stockCant{
+    margin-bottom: 0;
+    width: 100%;
+    border-bottom: gray 2px solid;
+    text-align: end;
+    margin: 5px 0 15px 0;
+}
+

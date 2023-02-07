@@ -1,0 +1,48 @@
+  .imagenItem{
+    height: 100%;
+    width: 180px;
+    max-height: 180px;
+    align-self: center;
+  }
+  
+  .cardItem{
+    width: 20%;
+    height: 300px;
+    border: black;
+    margin: 5px;
+  }
+
+  .bodyItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  
+  .botonItem{
+    background-color: black;
+  }
+
+  .detailsButton{
+    text-decoration: none;
+  }
+
+.detailsButton:hover{
+    font-weight: 900;
+}
+
+.noStock{
+  position: absolute;
+  width: 230px;
+  height: 180px;
+  background-color: black;
+  opacity: 0.3;
+}
+
+.noStockText{
+  position: absolute;
+  top: 5px;
+  padding-left: 2px;
+  color: black;
+  background-color: lightblue;
+}
